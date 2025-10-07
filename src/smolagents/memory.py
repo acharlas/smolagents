@@ -207,8 +207,8 @@ class SystemPromptStep(MemoryStep):
 
 
 @dataclass
-class FinalAnswerStep(MemoryStep):
-    output: Any
+class FinalAnswerStep(ActionStep):
+    pass
 
 
 class AgentMemory:
